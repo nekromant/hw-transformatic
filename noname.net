@@ -1,0 +1,458 @@
+# EESchema Netlist Version 1.1 created  Пнд 11 Июн 2012 17:33:00
+(
+ ( /4FD5DB5F $noname  L101 FERRITE {Lib=INDUCTOR}
+  (    1 /chC/Vout )
+  (    2 N-000003 )
+ )
+ ( /4FD5DB51 $noname  L102 FERRITE {Lib=INDUCTOR}
+  (    1 /chB/Vout )
+  (    2 N-000020 )
+ )
+ ( /4FD5DB4D $noname  L103 FERRITE {Lib=INDUCTOR}
+  (    1 /chA/Vout )
+  (    2 N-000013 )
+ )
+ ( /4FD5D4A2 $noname  R103 4k7 {Lib=R}
+  (    1 /chC/CS )
+  (    2 GND )
+ )
+ ( /4FD5D49E $noname  R102 4k7 {Lib=R}
+  (    1 /chB/CS )
+  (    2 GND )
+ )
+ ( /4FD5D49C $noname  R101 4k7 {Lib=R}
+  (    1 /chA/CS )
+  (    2 GND )
+ )
+ ( /4FD5D439 $noname  P102 PCTL {Lib=CONN_4}
+  (    1 /chA/CS )
+  (    2 /chB/CS )
+  (    3 /chC/CS )
+  (    4 GND )
+ )
+ ( /4FD5D42D $noname  P104 VMETER {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000021 )
+ )
+ ( /4FD5D42B $noname  P107 AMETER {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4FD5D42A $noname  JACK_101 POWERJACK {Lib=POWERJACK}
+  (    1 N-000021 )
+  (    2 N-000002 )
+  (    3 N-000002 )
+ )
+ ( /4FD5D429 $noname  F102 FUSE {Lib=FUSE}
+  (    1 N-000003 )
+  (    2 N-000021 )
+ )
+ ( /4FD5D426 $noname  J101 USB_2 {Lib=USB_2}
+  (    1 N-000021 )
+  (    2 N-000005 )
+  (    3 N-000005 )
+  (    4 N-000002 )
+ )
+ ( /4FD5D38B $noname  J102 USB_2 {Lib=USB_2}
+  (    1 N-000006 )
+  (    2 N-000007 )
+  (    3 N-000007 )
+  (    4 N-000022 )
+ )
+ ( /4FD5D32F $noname  J103 USB_2 {Lib=USB_2}
+  (    1 N-000018 )
+  (    2 N-000008 )
+  (    3 N-000008 )
+  (    4 N-000017 )
+ )
+ ( /4FD5D2D3 $noname  F103 FUSE {Lib=FUSE}
+  (    1 N-000020 )
+  (    2 N-000018 )
+ )
+ ( /4FD5D2D2 $noname  JACK_103 POWERJACK {Lib=POWERJACK}
+  (    1 N-000018 )
+  (    2 N-000017 )
+  (    3 N-000017 )
+ )
+ ( /4FD5D2D1 $noname  P108 AMETER {Lib=CONN_2}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4FD5D2CF $noname  P105 VMETER {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000018 )
+ )
+ ( /4FD5D287 $noname  P103 VMETER {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000006 )
+ )
+ ( /4FD5D1F5 $noname  P106 AMETER {Lib=CONN_2}
+  (    1 N-000022 )
+  (    2 GND )
+ )
+ ( /4FD5D1C9 $noname  JACK_102 POWERJACK {Lib=POWERJACK}
+  (    1 N-000006 )
+  (    2 N-000022 )
+  (    3 N-000022 )
+ )
+ ( /4FD5D1A5 $noname  F101 FUSE {Lib=FUSE}
+  (    1 N-000013 )
+  (    2 N-000006 )
+ )
+ ( /4FD5D01D $noname  C102 0.1uF {Lib=C}
+  (    1 +48V )
+  (    2 GND )
+ )
+ ( /4FD5CFF6 $noname  C101 407uF {Lib=C}
+  (    1 +48V )
+  (    2 GND )
+ )
+ ( /4FD5CF7A $noname  P101 AC_IN {Lib=CONN_2}
+  (    1 /AC2 )
+  (    2 /AC1 )
+ )
+ ( /4FD5CF2B $noname  D101 BRIDGE {Lib=BRIDGE}
+  (    1 GND )
+  (    2 /AC2 )
+  (    3 +48V )
+  (    4 /AC1 )
+ )
+ ( /4FD5D427/4EA41FD9 $noname  C203 33nF {Lib=C}
+  (    1 /chC/Vout )
+  (    2 /chC/FB )
+ )
+ ( /4FD5D427/4EA41ED6 $noname  C202 0.1uF {Lib=C}
+  (    1 /chC/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D427/4EA41E31 $noname  C201 470uF {Lib=C}
+  (    1 /chC/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D427/4EA41E2F $noname  RV201 POT {Lib=POT}
+  (    1 GND )
+  (    2 /chC/FB )
+  (    3 /chC/Vout )
+ )
+ ( /4FD5D427/4EA41E27 $noname  D201 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000027 )
+ )
+ ( /4FD5D427/4EA41E1D $noname  L201 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000027 )
+  (    2 /chC/Vout )
+ )
+ ( /4FD5D427/4EA41DD8 $noname  U201 GS6300 {Lib=GS6300}
+  (    1 +48V )
+  (    2 N-000027 )
+  (    3 GND )
+  (    4 /chC/FB )
+  (    5 /chC/CS )
+ )
+ ( /4FD5D2D5/4EA41FD9 $noname  C303 33nF {Lib=C}
+  (    1 /chB/Vout )
+  (    2 /chB/FB )
+ )
+ ( /4FD5D2D5/4EA41ED6 $noname  C302 0.1uF {Lib=C}
+  (    1 /chB/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D2D5/4EA41E31 $noname  C301 470uF {Lib=C}
+  (    1 /chB/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D2D5/4EA41E2F $noname  RV301 POT {Lib=POT}
+  (    1 GND )
+  (    2 /chB/FB )
+  (    3 /chB/Vout )
+ )
+ ( /4FD5D2D5/4EA41E27 $noname  D301 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000026 )
+ )
+ ( /4FD5D2D5/4EA41E1D $noname  L301 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000026 )
+  (    2 /chB/Vout )
+ )
+ ( /4FD5D2D5/4EA41DD8 $noname  U301 GS6300 {Lib=GS6300}
+  (    1 +48V )
+  (    2 N-000026 )
+  (    3 GND )
+  (    4 /chB/FB )
+  (    5 /chB/CS )
+ )
+ ( /4FD5D065/4EA41FD9 $noname  C403 33nF {Lib=C}
+  (    1 /chA/Vout )
+  (    2 /chA/FB )
+ )
+ ( /4FD5D065/4EA41ED6 $noname  C402 0.1uF {Lib=C}
+  (    1 /chA/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D065/4EA41E31 $noname  C401 470uF {Lib=C}
+  (    1 /chA/Vout )
+  (    2 GND )
+ )
+ ( /4FD5D065/4EA41E2F $noname  RV401 POT {Lib=POT}
+  (    1 GND )
+  (    2 /chA/FB )
+  (    3 /chA/Vout )
+ )
+ ( /4FD5D065/4EA41E27 $noname  D401 DIODE {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000023 )
+ )
+ ( /4FD5D065/4EA41E1D $noname  L401 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000023 )
+  (    2 /chA/Vout )
+ )
+ ( /4FD5D065/4EA41DD8 $noname  U401 GS6300 {Lib=GS6300}
+  (    1 +48V )
+  (    2 N-000023 )
+  (    3 GND )
+  (    4 /chA/FB )
+  (    5 /chA/CS )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C102
+ SM*
+ C?
+ C1-1
+$endlist
+$component C101
+ SM*
+ C?
+ C1-1
+$endlist
+$component C203
+ SM*
+ C?
+ C1-1
+$endlist
+$component C202
+ SM*
+ C?
+ C1-1
+$endlist
+$component C201
+ SM*
+ C?
+ C1-1
+$endlist
+$component D201
+ D?
+ S*
+$endlist
+$component C303
+ SM*
+ C?
+ C1-1
+$endlist
+$component C302
+ SM*
+ C?
+ C1-1
+$endlist
+$component C301
+ SM*
+ C?
+ C1-1
+$endlist
+$component D301
+ D?
+ S*
+$endlist
+$component C403
+ SM*
+ C?
+ C1-1
+$endlist
+$component C402
+ SM*
+ C?
+ C1-1
+$endlist
+$component C401
+ SM*
+ C?
+ C1-1
+$endlist
+$component D401
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/chC/Vout" "Vout"
+ L101 1
+ L201 2
+ RV201 3
+ C201 1
+ C202 1
+ C203 1
+Net 2 "" ""
+ P107 1
+ JACK_101 3
+ JACK_101 2
+ J101 4
+Net 3 "" ""
+ F102 1
+ L101 2
+Net 4 "+48V" "+48V"
+ D101 3
+ U301 1
+ C102 1
+ C101 1
+ U401 1
+ U201 1
+Net 5 "" ""
+ J101 2
+ J101 3
+Net 6 "" ""
+ P103 2
+ F101 2
+ J102 1
+ JACK_102 1
+Net 7 "" ""
+ J102 3
+ J102 2
+Net 8 "" ""
+ J103 3
+ J103 2
+Net 9 "/chC/CS" "CS"
+ U201 5
+ R103 1
+ P102 3
+Net 10 "/chA/CS" "CS"
+ U401 5
+ P102 1
+ R101 1
+Net 11 "/chB/CS" "CS"
+ R102 1
+ P102 2
+ U301 5
+Net 12 "/chA/Vout" "Vout"
+ L103 1
+ L401 2
+ RV401 3
+ C401 1
+ C402 1
+ C403 1
+Net 13 "" ""
+ F101 1
+ L103 2
+Net 14 "/AC2" "AC2"
+ D101 2
+ P101 1
+Net 15 "/AC1" "AC1"
+ D101 4
+ P101 2
+Net 16 "/chB/Vout" "Vout"
+ C301 1
+ L102 1
+ L301 2
+ RV301 3
+ C302 1
+ C303 1
+Net 17 "" ""
+ J103 4
+ P108 1
+ JACK_103 3
+ JACK_103 2
+Net 18 "" ""
+ JACK_103 1
+ F103 2
+ P105 2
+ J103 1
+Net 19 "GND" "GND"
+ D101 1
+ C402 2
+ RV401 1
+ D401 1
+ P104 1
+ C101 2
+ U301 3
+ D301 1
+ RV301 1
+ C301 2
+ C302 2
+ C102 2
+ P102 4
+ P106 2
+ D201 1
+ P107 2
+ R101 2
+ C201 2
+ C202 2
+ U401 3
+ C401 2
+ R102 2
+ P108 2
+ P105 1
+ P103 1
+ U201 3
+ RV201 1
+ R103 2
+Net 20 "" ""
+ L102 2
+ F103 1
+Net 21 "" ""
+ JACK_101 1
+ P104 2
+ J101 1
+ F102 2
+Net 22 "" ""
+ J102 4
+ JACK_102 3
+ JACK_102 2
+ P106 1
+Net 23 "" ""
+ D401 2
+ L401 1
+ U401 2
+Net 24 "/chA/FB" "FB"
+ RV401 2
+ C403 2
+ U401 4
+Net 25 "/chB/FB" "FB"
+ U301 4
+ RV301 2
+ C303 2
+Net 26 "" ""
+ D301 2
+ L301 1
+ U301 2
+Net 27 "" ""
+ D201 2
+ L201 1
+ U201 2
+Net 28 "/chC/FB" "FB"
+ RV201 2
+ C203 2
+ U201 4
+}
+#End
