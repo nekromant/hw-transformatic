@@ -9,13 +9,12 @@ cd $(1)
 git pull
 endef
 
-project=psupplier
-remotes=leaf libs bits modules
 url_leaf=https://github.com/leaflabs/hardware-lib.git
-url_libs=ssh://git@invyl.ath.cx/~/kicad/libs
+url_libs=git@github.com:nekromant/nc-libs.git
 url_bits=ssh://git@invyl.ath.cx/~/kicad/bits
-url_modules=ssh://git@invyl.ath.cx/~/kicad/modules
-#url_xue=git://projects.qi-hardware.com/xue.git
+url_modules=git@github.com:nekromant/nc-mods.git
+url_xue=git://projects.qi-hardware.com/xue.git
+
 all: .bootstrapped
 
 push=modules bits libs
@@ -45,12 +44,13 @@ purge:
 	rm -Rfv libs/
 	rm -Rfv leaf/
 	rm -Rfv user.mk
-	
+
 check-%:
 	@[ -d $* ] && [ -d $*/.git ] || echo "Library '$*' is missing or doesn't contain a git repo! This is BAD."
-	
+
+
 kicad: $(addprefix check-,$(remotes))
 	kicad $(project).pro
-	
+
 
 
