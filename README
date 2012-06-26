@@ -1,0 +1,3 @@
+This is my 'transformatic' project of a bench supply, initial commit. 
+To fetch modules and libs before opening kicad - run 'make update'
+
