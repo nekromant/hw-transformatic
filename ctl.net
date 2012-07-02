@@ -1,0 +1,203 @@
+# EESchema Netlist Version 1.1 created  Вск 01 Июл 2012 18:05:56
+(
+ ( /4FE7744D SM0603_Capa C101 27pF
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4FE77447 SM0603_Capa C102 27pF
+  ( 1 N-000013 )
+  ( 2 GND )
+ )
+ ( /4FE77617 LED-0805 D101 LED
+  ( 1 /L1 )
+  ( 2 N-000001 )
+ )
+ ( /4FE77611 LED-0805 D102 LED
+  ( 1 /L2 )
+  ( 2 N-000015 )
+ )
+ ( /4FE77616 LED-0805 D103 LED
+  ( 1 /L3 )
+  ( 2 N-000004 )
+ )
+ ( /4FE778D4/4FC0F82B SM1210 D1501 3v6
+  ( 1 GND )
+  ( 2 /usb/DM )
+ )
+ ( /4FE778D4/4FC0F832 SM1210 D1502 3v6
+  ( 1 GND )
+  ( 2 /usb/DP )
+ )
+ ( /4FE7743A SO20L IC101 ATTINY2313-P
+  ( 1 N-000016 )
+  ( 2 /CH8 )
+  ( 3 ? )
+  ( 4 N-000018 )
+  ( 5 N-000013 )
+  ( 6 /usb/MCU_INT )
+  ( 7 /usb/MCU_DP )
+  ( 8 /L1 )
+  ( 9 /L2 )
+  ( 10 GND )
+  ( 11 /L3 )
+  ( 12 /CH0 )
+  ( 13 /CH1 )
+  ( 14 /CH2 )
+  ( 15 /CH3 )
+  ( 16 /CH4 )
+  ( 17 /CH5 )
+  ( 18 /CH6 )
+  ( 19 /CH7 )
+  ( 20 VCC )
+ )
+ ( /4FE77A26 SIL-4 P102 USB
+  ( 1 VCC )
+  ( 2 /usb/DM )
+  ( 3 /usb/DP )
+  ( 4 GND )
+ )
+ ( /4FF051B7 CONN_SCEW_10 P103 CONN_10
+  ( 1 /CH0 )
+  ( 2 /CH1 )
+  ( 3 /CH2 )
+  ( 4 /CH3 )
+  ( 5 /CH4 )
+  ( 6 /CH5 )
+  ( 7 /CH6 )
+  ( 8 /CH7 )
+  ( 9 /CH8 )
+  ( 10 GND )
+ )
+ ( /4FE77472 R4 R101 10K
+  ( 1 N-000016 )
+  ( 2 VCC )
+ )
+ ( /4FE77618 SM0805 R102 220
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /4FE77612 SM0805 R103 220
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /4FE77615 SM0805 R104 220
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4FE778D4/4FC0F903 SM0805 R1501 1k5
+  ( 1 VCC )
+  ( 2 /usb/MCU_INT )
+ )
+ ( /4FE778D4/4FC0F8A2 SM0805 R1502 68
+  ( 1 /usb/MCU_INT )
+  ( 2 /usb/DM )
+ )
+ ( /4FE778D4/4FC0F89B SM0805 R1503 68
+  ( 1 /usb/MCU_DP )
+  ( 2 /usb/DP )
+ )
+ ( /4FE77440 HC-49V X101 CRYSTAL
+  ( 1 N-000018 )
+  ( 2 N-000013 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C101
+ SM*
+ C?
+ C1-1
+$endlist
+$component C102
+ SM*
+ C?
+ C1-1
+$endlist
+$component D101
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D102
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D103
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1501
+ D?
+ SO*
+ SM*
+$endlist
+$component D1502
+ D?
+ SO*
+ SM*
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R104
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1501
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1502
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1503
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
